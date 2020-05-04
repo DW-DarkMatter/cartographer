@@ -54,6 +54,10 @@ h1, header h2 {
 }
 /*Small screen*/
 @media (max-width: 768px) {
+    .sideBar {
+        display: inline-block;
+        width: 100%;
+    }
     .games {
         float: left;
         width: 50%;
