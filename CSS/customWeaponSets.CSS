@@ -1,0 +1,27 @@
+td {
+    background:green;
+}
+
+.wSet_file{
+   border: 4px white solid;
+   width: 50%; 
+}
+    .wSet_file table {
+        width:100%;
+    }
+    .weaponTable td{
+        box-sizing: border-box;
+    }
+    .weaponTable tr td:nth-child(1){
+        width:10%;
+    }
+    .weaponTable tr td:nth-child(2){
+        width:80%;
+    }
+    .weaponTable tr td:nth-child(3){
+        width:10%;
+    }
+    .itemTable {
+        table-layout: fixed;
+        overflow-wrap: normal;
+    }
