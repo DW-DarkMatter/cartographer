@@ -1,0 +1,28 @@
+@import "../_PARTIALS/mix_clearfix";
+
+body {
+    width: 100%;
+    margin: auto;
+}
+
+@media (min-width: 660px) {
+    .wSet-file {
+        width: 50%;
+    }
+    body {
+        width:80%;
+    }
+    body, .float-container {
+        @include clearfix;
+    }
+    .float-container > :nth-child(odd), body > .wSet-file:nth-of-type(odd){
+        float: left;
+    }
+    .float-container > :nth-child(even), body > .wSet-file:nth-of-type(even){
+        float: right;
+    }
+}
+
+.float-container {
+    width:100%;
+}
