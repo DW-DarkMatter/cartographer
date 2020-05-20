@@ -9,14 +9,24 @@ $dark-safety-orange:darken($safety-orange, 10);
 body {
     background:black;
 }
+h2 {
+    color: wheat;
+}
 
 //Container colors
 .wSet-file {
     color: white;
     border-color: white;
+    h2 {
+        color: white;
+    }
 }
 .file-header {
     background: olive;
+    //color: ???;
+}
+.fHeader-altColor {
+    background: darkred;
     //color: ???;
 }
 .weaponTable td {

@@ -9,12 +9,19 @@ $dark-safety-orange:darken($safety-orange, 10);
 body {
     background:black;
 }
+h2 {
+    color: lightskyblue;
+}
 
 //Container colors
 .wSet-file {
     color: white;
     border-color: white;
+    h2 {
+        color: white;
+    }
 }
+
 .file-header {
     background: $capri;
     //color: ???;

@@ -3,12 +3,16 @@ body {
   margin: auto;
 }
 
+.wSet-file {
+  margin: 5px;
+}
+
 @media (min-width: 660px) {
   .wSet-file {
-    width: 50%;
+    width: calc(50% - 10px);
   }
   body {
-    width: 80%;
+    width: 90%;
   }
   body, .float-container {
     content: "";

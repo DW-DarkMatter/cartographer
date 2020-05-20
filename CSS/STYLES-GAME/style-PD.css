@@ -6,9 +6,17 @@ body {
   background: black;
 }
 
+h2 {
+  color: lightskyblue;
+}
+
 .wSet-file {
   color: white;
   border-color: white;
+}
+
+.wSet-file h2 {
+  color: white;
 }
 
 .file-header {

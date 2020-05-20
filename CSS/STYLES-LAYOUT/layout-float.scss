@@ -1,16 +1,25 @@
-@import "../_PARTIALS/mix_clearfix";
+@import "../_PARTIALS/breakpoints",
+        "../_PARTIALS/mix_clearfix";
+
+//  This layout would prefer that every two .wSet-file elements be wrapped in a .float container.
+//  This isn't strictly required - the code will still format elements outside of the containers -
+// but it may cause them to be mis-aligned or out of order.
+//  It is strongly recommended that you use layout-flex instead. 
 
 body {
     width: 100%;
     margin: auto;
 }
+.wSet-file {
+    margin: 5px;
+}
 
-@media (min-width: 660px) {
+@media (min-width: $bp-md) {
     .wSet-file {
-        width: 50%;
+        width: calc(50% - 10px);
     }
     body {
-        width:80%;
+        width:90%;
     }
     body, .float-container {
         @include clearfix;

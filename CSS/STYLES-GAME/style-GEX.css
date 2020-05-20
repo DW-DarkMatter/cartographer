@@ -6,13 +6,25 @@ body {
   background: black;
 }
 
+h2 {
+  color: wheat;
+}
+
 .wSet-file {
   color: white;
   border-color: white;
 }
 
+.wSet-file h2 {
+  color: white;
+}
+
 .file-header {
   background: olive;
+}
+
+.fHeader-altColor {
+  background: darkred;
 }
 
 .weaponTable td {
